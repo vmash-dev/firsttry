@@ -1,5 +1,5 @@
-number = input("Enter number")
-number2 = input("Enter second number")
+number = input("Enter number ")
+number2 = input("Enter second number ")
 number = float(number)
 number2 = float(number2)
 anwser1 = (number + number2)
