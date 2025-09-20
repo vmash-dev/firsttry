@@ -1,0 +1,10 @@
+number = input("Enter number")
+number2 = input("Enter second number")
+number = float(number)
+number2 = float(number2)
+anwser1 = (number + number2)
+anwser2 = (number - number2)
+anwser3 = (number * number2)
+anwser4 = (number / number2)
+final_anwser = f"Додати: {anwser1}   Відняти: {anwser2}   Помножити: {anwser3}   Поділити: {anwser4}"
+print(final_anwser)
