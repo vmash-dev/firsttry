@@ -12,8 +12,6 @@ response = requests.get(url, params=params)
 print(response)
 
 response_json = response.json()
-#pprint(response_json)
 subjects = response_json['subjects']
-#pprint(subjects)
 for subject in subjects:
     print(subject)
